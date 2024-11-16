@@ -1,0 +1,128 @@
+# Ignore build directory (Gradle output)
+build/
+.gradle/
+out/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Ignore IntelliJ workspace files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+.idea/vcs.xml
+.idea/.idea/
+.idea/.gitignore
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore Java compiled class files
+*.class
+
+# Ignore Gradle wrapper files (if you don't want to include them)
+gradle/wrapper/gradle-wrapper.jar
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore JetBrains related files
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# Ignore test reports
+test-output/
+reports/
+test-results/
+cucumber-report-html/
+surefire-reports/
+
+# Ignore WebDriver binaries (downloaded via WebDriverManager)
+chromedriver.exe
+chromedriver
+geckodriver.exe
+geckodriver
+msedgedriver.exe
+msedgedriver
+
+# Ignore user-specific configuration files
+.env
+*.env
+
+# Ignore Maven/Gradle dependency cache (if using local dependencies)
+.mvn/
+.mvnw/
+.mvnw.cmd
+
+# Ignore Gradle cache files
+.cache/
+.caches/
+.local/
+.mvn/timing.log
+**/.classpath
+**/.project
+**/.settings
+
+# Ignore coverage reports
+coverage/
+*.eml
+*.ist
+*.war
+*.ear
+*.swp
+
+# Ignore Eclipse project files
+.project
+.settings/
+.classpath
+*.log
+
+# Ignore npm and NodeJS (if you're using frontend libraries)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore OS files
+*.swp
+*~
+~$*
+
+# Ignore miscellaneous
+*.tmp
+*.bak
+*.pid
+*.seed
+*.backup
+*.original
+*.orig
+
+# Ignore snapshots (useful for failed test cases)
+snapshots/
+
+# Ignore build tools caches and lock files
+/.gradle/caches/
+/.gradle/4.10/
+/.gradle/5.0/
+/.gradle/6.0/
+/.gradle/6.5/
+/.gradle/6.8/
+/.gradle/7.0/
+/.gradle/8.0/
+.gradle/kotlin/
+/.gradle/gradle.properties
+
+# Ignore Gradle specific files
+gradlew.bat
+gradlew
+
+# Ignore dependency cache from Gradle
+**/build/libs/*.jar
